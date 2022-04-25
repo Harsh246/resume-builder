@@ -1,0 +1,33 @@
+h1{
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+h2{
+    font-size: 14px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+contact{
+    width: 45%;
+    height: 80%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.title{
+    width: 100%;
+  margin-bottom: 7px;
+  font-size: large;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    margin-top: 7px;
+    border-bottom: 2px solid #232323;
+  }
