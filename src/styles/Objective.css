@@ -1,0 +1,90 @@
+#objective-form {
+  width: 35vw;
+
+  background-color: #ededed;
+  color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  height: 50%;
+  color: #ededed;
+  box-shadow: 0px 0px 8px 5px rgb(39, 39, 39);
+}
+#objective-form-heading {
+  padding: 10px;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  position: sticky;
+  color: #ededed;
+  font-weight: bolder;
+  background-color: #da0037;
+}
+
+#objective-form-heading:after {
+  content: "";
+  color: #da0037;
+  height: 1px;
+  width: 100%;
+  border-bottom: 2px solid #ededed;
+}
+
+#objective-form-body {
+  width: 95%;
+  font-size: 20px;
+  height: auto;
+  min-height: 90%;
+  overflow: scroll;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  min-height: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#obj-buttons {
+  width: 100%;
+  height: 10%;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+#obj-buttons button {
+  width: 30%;
+  height: 80%;
+  padding: 10px;
+  color: #ededed;
+  background-color: #da0037;
+  border: none;
+  font-size: 2.5vh;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#blue {
+  background-color: #3e00da !important;
+}
+
+@media (max-width: 1000px) {
+  #objective-form {
+    width: 50vw;
+  }
+
+  #obj-buttons button {
+    width: 40%;
+
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #objective-form {
+    width: 70vw;
+  }
+}
